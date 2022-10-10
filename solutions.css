@@ -106,11 +106,11 @@
 
 /* ex-11-icon */
 .ex-11-icon:hover{
-    animation: rotation 2s linear;
+    animation: half-rotation 2s linear;
 }
 
 
-@keyframes rotation{
+@keyframes half-rotation{
     0%{
         transform: rotate(0deg);
     }
